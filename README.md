@@ -60,16 +60,15 @@ For the Technical and Design achievements, make sure you thoroughly describe in 
 Note that if you want to load resources besides your index.html file (images, an CSS file, a JS file) you'll need to modify server.js to point to these. For now it's easiest to just hardcode paths to the resources, but we'll look at ways to optimize this shortly.
 
 *Basic Requirements*
+Note the highest grade you can receive is a 100%.  
 
-(10 points each)
-
-1. Assignment has proper naming scheme
-2. Files forked from original repo
-3. `index.html` properly rendered
-4. `index.html` page properly edited
-5. All changes pushed to GitHub
-6. Project deployed to Render (or other hosting option)
-7. Pull Request submitted to original repo
+1. Assignment has proper naming scheme (10 points)
+2. Files forked from original repo (10 points)
+3. `index.html` properly rendered, no obvious visual errors / extraneous characters (15 points)
+4. `index.html` page properly edited (contains doctype, charset, and validates at https://validator.w3.org/, 10 points)
+5. All changes pushed to GitHub (10 points)
+6. Project deployed to Render (or other hosting option, 15 points)
+7. Pull Request submitted to original repo (15 points)
 
 *Technical Achievements*
 1. (5 points) Style your page using CSS. Each style rule you apply will get you 1 point for a maximum of 5 points. Be sure to describe your style rules in your README.
@@ -79,8 +78,6 @@ Note that if you want to load resources besides your index.html file (images, an
 *Design Achievements*
 1. (10 points) Create a color palette using [color.adobe.com](https://color.adobe.com). Use all the colors in the palette in your webpage by implementing the appropriate CSS. Add a small screenshot of the color wheel for your color palette to your repo.
 2. (5 points) Use a font from [Google Fonts](https://fonts.google.com) in your website.
-
-**NOTE:** There are additional color pallette and font options listed on Canvas under Modules -> Resources -> Color Pallettes and Fonts. You are welcome to use one of those instead. If you know of and would like to use any other resources that are not included, feel free to contact the instructor.
 
 Sample Readme (delete the above when you're ready to submit, and modify the text below with your links and descriptions)
 ---
