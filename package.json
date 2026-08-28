@@ -2,7 +2,7 @@
   "name": "a1-gettingstarted",
   "version": "0.1.0",
   "description": "WPI CS 4241 first assignment",
-  "author": "Charlie Roberts",
+  "author": "Christian Dell'Anno",
   "scripts": {
     "start": "node server.js"
   }
