@@ -1,8 +1,5 @@
 Christian Dell'anno <https://a1-christiandellanno.onrender.com>
 
-
-This project is my personal introduction page for CS 4241 (Webware), built with plain HTML/CSS/JS and deployed on Render. It's styled as a small "build manifest" — the page presents my info the way a config file or terminal session would, with a typed intro line and animated skill bars.
-
 ## Technical Achievements
 
 - **Styled the page with CSS (5 pts, 11+ rules)**: Wrote a full stylesheet (`style.css`) built around CSS custom properties for the color palette and typography. Rules cover the terminal-style header/footer bar, the nav, the `dl`-based "manifest" key/value layout for the about section, the animated skill bar tracks/fills, the course table, the palette swatches, focus states for accessibility, a `prefers-reduced-motion` fallback, and a mobile breakpoint.
