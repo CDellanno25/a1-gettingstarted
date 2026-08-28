@@ -1,4 +1,4 @@
-Christian Dell'anno <http://a1-yourfirstandlastname.onrender.com>
+Christian Dell'anno <https://a1-christiandellanno.onrender.com>
 
 
 This project is my personal introduction page for CS 4241 (Webware), built with plain HTML/CSS/JS and deployed on Render. It's styled as a small "build manifest" — the page presents my info the way a config file or terminal session would, with a typed intro line and animated skill bars.
