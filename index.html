@@ -1,28 +1,186 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <title>CS4241 Assignment 1</title>
-    <meta charset="utf-8">
-  </head>
-  <body>
-    <h1>Information about [Your name here]</h1>
-    <p>
-    Charlie Roberts
-    </p>
-    <p>
-      [Major and other information]
-    </p>
-    <p>
-      [Other things]
-    </p>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>student.profile — Assignment 1</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
 
-    <h2>Experience</h2>
-    <p>
-      Working experience
-    </p>
+  <header class="terminal-bar">
+    <div class="terminal-dots" aria-hidden="true">
+      <span class="dot dot-red"></span>
+      <span class="dot dot-yellow"></span>
+      <span class="dot dot-green"></span>
+    </div>
+    <span class="terminal-title">student.profile — v1.0.0</span>
+  </header>
+
+  <nav class="site-nav" aria-label="Section navigation">
     <ul>
-      <li>IBM/Rational</li>
-      <li>WPI</li>
+      <li><a href="#about">about</a></li>
+      <li><a href="#skills">skills</a></li>
+      <li><a href="#courses">courses</a></li>
+      <li><a href="#palette">palette</a></li>
     </ul>
-  </body>
+  </nav>
+
+  <main>
+    <section id="intro" class="intro">
+      <p class="prompt-line">
+        <span class="prompt-user">christian@wpi</span><span class="prompt-colon">:~$</span>
+        <span id="typed-text" class="typed-text"></span><span class="cursor" aria-hidden="true">▌</span>
+      </p>
+    </section>
+
+    <section id="about" class="manifest-section">
+      <h2><span class="tag">01</span> about.yml</h2>
+      <dl class="manifest">
+        <dt>name</dt>
+        <dd>Christian Dell'Anno</dd>
+
+        <dt>class</dt>
+        <dd>2027</dd>
+
+        <dt>major</dt>
+        <dd>Computer Science</dd>
+
+        <dt>school</dt>
+        <dd>Worcester Polytechnic Institute</dd>
+      </dl>
+    </section>
+
+    <section id="skills" class="manifest-section">
+      <h2><span class="tag">02</span> skills.log</h2>
+      <p class="section-note">Self-reported experience, compiled on page load.</p>
+
+      <ul class="skill-bars">
+        <li class="skill" data-level="80">
+          <div class="skill-head">
+            <span class="skill-name">HTML</span>
+            <span class="skill-label">I have done a good amount of work using HTML in mutiple different classes as well as in my free time.</span>
+          </div>
+          <div class="skill-track">
+            <div class="skill-fill"></div>
+          </div>
+        </li>
+
+        <li class="skill" data-level="80">
+          <div class="skill-head">
+            <span class="skill-name">CSS</span>
+            <span class="skill-label">I have used CSS a good amount when making websites and have gained a solid understanding of its capabilities.</span>
+          </div>
+          <div class="skill-track">
+            <div class="skill-fill"></div>
+          </div>
+        </li>
+
+        <li class="skill" data-level="40">
+          <div class="skill-head">
+            <span class="skill-name">JavaScript / TypeScript</span>
+            <span class="skill-label">I have used more Typescript then JavaScript in my projects, but I have been reasearching and learning more about JavaScript.</span>
+          </div>
+          <div class="skill-track">
+            <div class="skill-fill"></div>
+          </div>
+        </li>
+      </ul>
+    </section>
+
+    <section id="courses" class="manifest-section">
+      <h2><span class="tag">03</span> courses.log</h2>
+      <table class="course-table">
+        <caption>Previous CS coursework at WPI</caption>
+        <thead>
+          <tr>
+            <th scope="col">Course</th>
+            <th scope="col">Title</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>CS 1101</td>
+            <td>Introduction To Program Design</td>
+          </tr>
+          <tr>
+            <td>CS 2102</td>
+            <td>Object-Oriented Design Concepts</td>
+          </tr>
+          <tr>
+            <td>CS 3133</td>
+            <td>Foundations Of Computer Science</td>
+          </tr>
+          <tr>
+            <td>CS 3431</td>
+            <td>Database Systems I</td>
+          </tr>
+          <tr>
+            <td>CS 2303</td>
+            <td>Systems Programming Concepts</td>
+          </tr>
+          <tr>
+            <td>CS 2223</td>
+            <td>Algorithms</td>
+          </tr>
+          <tr>
+            <td>CS 3013</td>
+            <td>Operating Systems</td>
+          </tr>
+          <tr>
+            <td>CS 3733</td>
+            <td>Software Engineering</td>
+          </tr>
+          <tr>
+            <td>CS 4233</td>
+            <td>Object-Oriented Analysis And Design</td>
+          </tr>
+          <tr>
+            <td>CS 3041</td>
+            <td>Human-Computer Interaction</td>
+          </tr>
+          <tr>
+            <td>CS 4341</td>
+            <td>Introduction To Artificial Intelligence</td>
+          </tr>
+          <tr>
+            <td>CS 3043</td>
+            <td>Social Implications Of Information Processing</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section id="palette" class="manifest-section">
+      <h2><span class="tag">04</span> palette.png</h2>
+      <p class="section-note">Color palette generated on <a href="https://color.adobe.com" target="_blank" rel="noopener noreferrer">color.adobe.com</a>, used throughout this page's CSS.</p>
+
+      <ul class="swatches" aria-label="Color palette swatches">
+        <li class="swatch" style="--sw: var(--color-bg);"><span>paper</span></li>
+        <li class="swatch" style="--sw: var(--color-ink);"><span>ink</span></li>
+        <li class="swatch" style="--sw: var(--color-pine);"><span>pine</span></li>
+        <li class="swatch" style="--sw: var(--color-amber);"><span>amber</span></li>
+        <li class="swatch" style="--sw: var(--color-teal);"><span>wire</span></li>
+      </ul>
+
+      <figure class="palette-figure">
+        <!-- TODO: replace src with a screenshot of your Adobe Color wheel, save it in this repo -->
+        <img src="palette-screenshot.png" alt="Screenshot of the color palette wheel from color.adobe.com" />
+        <figcaption>Screenshot of the palette from Adobe Color.</figcaption>
+      </figure>
+    </section>
+  </main>
+
+  <footer class="terminal-bar footer-bar">
+    <p><span class="prompt-user">christian@wpi</span><span class="prompt-colon">:~$</span> deployed via <a href="https://render.com" target="_blank" rel="noopener noreferrer">Render</a> · source on <a href="https://github.com/CDellanno25/a1-gettingstarted" target="_blank" rel="noopener noreferrer">GitHub</a></p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
 </html>
