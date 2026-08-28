@@ -1,6 +1,5 @@
-[YOUR NAME HERE] <http://a1-yourfirstandlastname.onrender.com>
+Christian Dell'anno <http://a1-yourfirstandlastname.onrender.com>
 
-<!-- TODO: update the name/URL above once deployed, and rename the repo/Render service to a1-yourFirstAndLastName -->
 
 This project is my personal introduction page for CS 4241 (Webware), built with plain HTML/CSS/JS and deployed on Render. It's styled as a small "build manifest" — the page presents my info the way a config file or terminal session would, with a typed intro line and animated skill bars.
 
@@ -12,5 +11,5 @@ This project is my personal introduction page for CS 4241 (Webware), built with 
 
 ## Design Achievements
 
-- **Color palette from Adobe Color**: Built a 5-color palette — a warm paper background, a near-black ink for text, a deep pine green for the header/nav chrome, an amber accent, and a muted teal for links/secondary accents. All five are defined as CSS custom properties in `:root` and used throughout the stylesheet (header/footer background, accent tags, link colors, skill bar gradient, swatch borders). A screenshot of the palette wheel is embedded via `<figure>` in the "palette" section — <!-- TODO: replace `palette-screenshot.png` with your actual exported screenshot from color.adobe.com -->.
+- **Color palette from Adobe Color**: Built a 5-color palette — a warm paper background, a near-black ink for text, a deep pine green for the header/nav chrome, an amber accent, and a muted teal for links/secondary accents. All five are defined as CSS custom properties in `:root` and used throughout the stylesheet (header/footer background, accent tags, link colors, skill bar gradient, swatch borders). A screenshot of the palette wheel is embedded via `<figure>` in the "palette" section.
 - **Google Font**: Used **JetBrains Mono** for headings, labels, and anything meant to read as "code" (nav, manifest labels, skill bars, table headers), paired with **Source Serif 4** for body copy, to play up the code/terminal concept while keeping longer text readable.
